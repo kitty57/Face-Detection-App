@@ -1,6 +1,7 @@
 import streamlit as st
 import cv2
 import matplotlib.pyplot as plt
+import numpy as np
 
 def detect_faces(image):
     gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
